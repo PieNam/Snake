@@ -38,7 +38,6 @@ int flag = 1;//表示游戏状态。1表示可以继续，0表示游戏结束
 
 int main(void)
 {
-
 	char kbi, lastmove = 'D';
 	srand(time(NULL));
 	creatfood();
