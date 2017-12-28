@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
+#include<conio.h>
 #include<windows.h>
 
 #define blank ' '
@@ -45,7 +46,7 @@ int main(void)
 	printer();
 	while (flag)
 	{
-		if (_kbhit()) { kbi = getch(); continue; }
+		if (_kbhit()) { kbi = _getch(); continue; }
 		else
 		switch (kbi)
 		{
